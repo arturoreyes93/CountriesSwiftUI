@@ -22,10 +22,6 @@ class CountriesDataServiceMock: CountriesDataServiceProtocol {
     
     func fetchCountries() -> AnyPublisher<[Country], Error> {
         
-        func decodedResult(data: Data) -> AnyPublisher<[Country], Error> {
-            return testData.decode(data)
-        }
-        
         switch testResult {
         case .success:
             guard let countriesData = try? testData.dataFor(file: .Countries) else {

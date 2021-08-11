@@ -13,7 +13,6 @@ public protocol NetworkRouterProtocol {
     func request(_ route: Endpoint) -> AnyPublisher<Endpoint.Response, Error>
 }
 
-
 public struct NetworkRouter<Endpoint: URLEndPoint>: NetworkRouterProtocol {
     
     public typealias Endpoint = Endpoint
@@ -21,7 +20,9 @@ public struct NetworkRouter<Endpoint: URLEndPoint>: NetworkRouterProtocol {
     private let session: URLSession = URLSession.shared
     
     public func request(_ route: Endpoint) -> AnyPublisher<Endpoint.Response, Error> {
-        var request = URLRequest(url: route.baseURL.appendingPathComponent(route.path))
+        let urlString = route.baseURL.appendingPathComponent(route.path).absoluteString.removingPercentEncoding! // Here is why it didn't work -> https://stackoverflow.com/a/53955868/7388643
+        print("URL -> \(urlString)")
+        var request = URLRequest(url: URL(string: urlString)!)
         request.httpMethod = route.httpMethod.rawValue
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         return session
@@ -36,14 +37,22 @@ public struct NetworkRouter<Endpoint: URLEndPoint>: NetworkRouterProtocol {
                     throw NetworkError.badHTTPStatusCode(statusCode)
                 }
                 
+                data.log()
+                
                 return data
             }
             .decode(type: Endpoint.Response.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
-//            .tryMap({ data, response -> Data in
-//
-//                guard let (response as? HTTPURLResponse)?.s
-//                return data
-//            })
+        
+    }
+}
+
+extension Data {
+    var utf8String: String {
+        return String(data: self, encoding: .utf8) ?? "Unable to encode data with UTF8 encoding"
+    }
+    
+    func log() {
+        print(utf8String)
     }
 }

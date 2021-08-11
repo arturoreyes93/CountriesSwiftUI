@@ -1,0 +1,2341 @@
+[
+  {
+    "name": "Afghanistan",
+    "alpha2Code": "AF",
+    "capital": "Kabul",
+    "population": 27657145,
+    "timezones": [
+      "UTC+04:30"
+    ]
+  },
+  {
+    "name": "Åland Islands",
+    "alpha2Code": "AX",
+    "capital": "Mariehamn",
+    "population": 28875,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Albania",
+    "alpha2Code": "AL",
+    "capital": "Tirana",
+    "population": 2886026,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Algeria",
+    "alpha2Code": "DZ",
+    "capital": "Algiers",
+    "population": 40400000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "American Samoa",
+    "alpha2Code": "AS",
+    "capital": "Pago Pago",
+    "population": 57100,
+    "timezones": [
+      "UTC-11:00"
+    ]
+  },
+  {
+    "name": "Andorra",
+    "alpha2Code": "AD",
+    "capital": "Andorra la Vella",
+    "population": 78014,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Angola",
+    "alpha2Code": "AO",
+    "capital": "Luanda",
+    "population": 25868000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Anguilla",
+    "alpha2Code": "AI",
+    "capital": "The Valley",
+    "population": 13452,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Antarctica",
+    "alpha2Code": "AQ",
+    "capital": "",
+    "population": 1000,
+    "timezones": [
+      "UTC-03:00",
+      "UTC+03:00",
+      "UTC+05:00",
+      "UTC+06:00",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "alpha2Code": "AG",
+    "capital": "Saint John's",
+    "population": 86295,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Argentina",
+    "alpha2Code": "AR",
+    "capital": "Buenos Aires",
+    "population": 43590400,
+    "timezones": [
+      "UTC-03:00"
+    ]
+  },
+  {
+    "name": "Armenia",
+    "alpha2Code": "AM",
+    "capital": "Yerevan",
+    "population": 2994400,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Aruba",
+    "alpha2Code": "AW",
+    "capital": "Oranjestad",
+    "population": 107394,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Australia",
+    "alpha2Code": "AU",
+    "capital": "Canberra",
+    "population": 24117360,
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:30",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:30",
+      "UTC+10:00",
+      "UTC+10:30",
+      "UTC+11:30"
+    ]
+  },
+  {
+    "name": "Austria",
+    "alpha2Code": "AT",
+    "capital": "Vienna",
+    "population": 8725931,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "alpha2Code": "AZ",
+    "capital": "Baku",
+    "population": 9730500,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Bahamas",
+    "alpha2Code": "BS",
+    "capital": "Nassau",
+    "population": 378040,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "alpha2Code": "BH",
+    "capital": "Manama",
+    "population": 1404900,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Bangladesh",
+    "alpha2Code": "BD",
+    "capital": "Dhaka",
+    "population": 161006790,
+    "timezones": [
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "Barbados",
+    "alpha2Code": "BB",
+    "capital": "Bridgetown",
+    "population": 285000,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Belarus",
+    "alpha2Code": "BY",
+    "capital": "Minsk",
+    "population": 9498700,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Belgium",
+    "alpha2Code": "BE",
+    "capital": "Brussels",
+    "population": 11319511,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Belize",
+    "alpha2Code": "BZ",
+    "capital": "Belmopan",
+    "population": 370300,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Benin",
+    "alpha2Code": "BJ",
+    "capital": "Porto-Novo",
+    "population": 10653654,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Bermuda",
+    "alpha2Code": "BM",
+    "capital": "Hamilton",
+    "population": 61954,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Bhutan",
+    "alpha2Code": "BT",
+    "capital": "Thimphu",
+    "population": 775620,
+    "timezones": [
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "Bolivia (Plurinational State of)",
+    "alpha2Code": "BO",
+    "capital": "Sucre",
+    "population": 10985059,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "alpha2Code": "BQ",
+    "capital": "Kralendijk",
+    "population": 17408,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "alpha2Code": "BA",
+    "capital": "Sarajevo",
+    "population": 3531159,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Botswana",
+    "alpha2Code": "BW",
+    "capital": "Gaborone",
+    "population": 2141206,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Bouvet Island",
+    "alpha2Code": "BV",
+    "capital": "",
+    "population": 0,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Brazil",
+    "alpha2Code": "BR",
+    "capital": "Brasília",
+    "population": 206135893,
+    "timezones": [
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-02:00"
+    ]
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "alpha2Code": "IO",
+    "capital": "Diego Garcia",
+    "population": 3000,
+    "timezones": [
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "alpha2Code": "UM",
+    "capital": "",
+    "population": 300,
+    "timezones": [
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Virgin Islands (British)",
+    "alpha2Code": "VG",
+    "capital": "Road Town",
+    "population": 28514,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Virgin Islands (U.S.)",
+    "alpha2Code": "VI",
+    "capital": "Charlotte Amalie",
+    "population": 114743,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Brunei Darussalam",
+    "alpha2Code": "BN",
+    "capital": "Bandar Seri Begawan",
+    "population": 411900,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "alpha2Code": "BG",
+    "capital": "Sofia",
+    "population": 7153784,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Burkina Faso",
+    "alpha2Code": "BF",
+    "capital": "Ouagadougou",
+    "population": 19034397,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Burundi",
+    "alpha2Code": "BI",
+    "capital": "Bujumbura",
+    "population": 10114505,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Cambodia",
+    "alpha2Code": "KH",
+    "capital": "Phnom Penh",
+    "population": 15626444,
+    "timezones": [
+      "UTC+07:00"
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "alpha2Code": "CM",
+    "capital": "Yaoundé",
+    "population": 22709892,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Canada",
+    "alpha2Code": "CA",
+    "capital": "Ottawa",
+    "population": 36155487,
+    "timezones": [
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:30"
+    ]
+  },
+  {
+    "name": "Cabo Verde",
+    "alpha2Code": "CV",
+    "capital": "Praia",
+    "population": 531239,
+    "timezones": [
+      "UTC-01:00"
+    ]
+  },
+  {
+    "name": "Cayman Islands",
+    "alpha2Code": "KY",
+    "capital": "George Town",
+    "population": 58238,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Central African Republic",
+    "alpha2Code": "CF",
+    "capital": "Bangui",
+    "population": 4998000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Chad",
+    "alpha2Code": "TD",
+    "capital": "N'Djamena",
+    "population": 14497000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Chile",
+    "alpha2Code": "CL",
+    "capital": "Santiago",
+    "population": 18191900,
+    "timezones": [
+      "UTC-06:00",
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "China",
+    "alpha2Code": "CN",
+    "capital": "Beijing",
+    "population": 1377422166,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Christmas Island",
+    "alpha2Code": "CX",
+    "capital": "Flying Fish Cove",
+    "population": 2072,
+    "timezones": [
+      "UTC+07:00"
+    ]
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "alpha2Code": "CC",
+    "capital": "West Island",
+    "population": 550,
+    "timezones": [
+      "UTC+06:30"
+    ]
+  },
+  {
+    "name": "Colombia",
+    "alpha2Code": "CO",
+    "capital": "Bogotá",
+    "population": 48759958,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Comoros",
+    "alpha2Code": "KM",
+    "capital": "Moroni",
+    "population": 806153,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Congo",
+    "alpha2Code": "CG",
+    "capital": "Brazzaville",
+    "population": 4741000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Congo (Democratic Republic of the)",
+    "alpha2Code": "CD",
+    "capital": "Kinshasa",
+    "population": 85026000,
+    "timezones": [
+      "UTC+01:00",
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Cook Islands",
+    "alpha2Code": "CK",
+    "capital": "Avarua",
+    "population": 18100,
+    "timezones": [
+      "UTC-10:00"
+    ]
+  },
+  {
+    "name": "Costa Rica",
+    "alpha2Code": "CR",
+    "capital": "San José",
+    "population": 4890379,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Croatia",
+    "alpha2Code": "HR",
+    "capital": "Zagreb",
+    "population": 4190669,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Cuba",
+    "alpha2Code": "CU",
+    "capital": "Havana",
+    "population": 11239004,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Curaçao",
+    "alpha2Code": "CW",
+    "capital": "Willemstad",
+    "population": 154843,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "alpha2Code": "CY",
+    "capital": "Nicosia",
+    "population": 847000,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "alpha2Code": "CZ",
+    "capital": "Prague",
+    "population": 10558524,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Denmark",
+    "alpha2Code": "DK",
+    "capital": "Copenhagen",
+    "population": 5717014,
+    "timezones": [
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-01:00",
+      "UTC",
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Djibouti",
+    "alpha2Code": "DJ",
+    "capital": "Djibouti",
+    "population": 900000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Dominica",
+    "alpha2Code": "DM",
+    "capital": "Roseau",
+    "population": 71293,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Dominican Republic",
+    "alpha2Code": "DO",
+    "capital": "Santo Domingo",
+    "population": 10075045,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "alpha2Code": "EC",
+    "capital": "Quito",
+    "population": 16545799,
+    "timezones": [
+      "UTC-06:00",
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "alpha2Code": "EG",
+    "capital": "Cairo",
+    "population": 91290000,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "alpha2Code": "SV",
+    "capital": "San Salvador",
+    "population": 6520675,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "alpha2Code": "GQ",
+    "capital": "Malabo",
+    "population": 1222442,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Eritrea",
+    "alpha2Code": "ER",
+    "capital": "Asmara",
+    "population": 5352000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Estonia",
+    "alpha2Code": "EE",
+    "capital": "Tallinn",
+    "population": 1315944,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Ethiopia",
+    "alpha2Code": "ET",
+    "capital": "Addis Ababa",
+    "population": 92206005,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Falkland Islands (Malvinas)",
+    "alpha2Code": "FK",
+    "capital": "Stanley",
+    "population": 2563,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Faroe Islands",
+    "alpha2Code": "FO",
+    "capital": "Tórshavn",
+    "population": 49376,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Fiji",
+    "alpha2Code": "FJ",
+    "capital": "Suva",
+    "population": 867000,
+    "timezones": [
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Finland",
+    "alpha2Code": "FI",
+    "capital": "Helsinki",
+    "population": 5491817,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "France",
+    "alpha2Code": "FR",
+    "capital": "Paris",
+    "population": 66710000,
+    "timezones": [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC+01:00",
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+05:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "French Guiana",
+    "alpha2Code": "GF",
+    "capital": "Cayenne",
+    "population": 254541,
+    "timezones": [
+      "UTC-03:00"
+    ]
+  },
+  {
+    "name": "French Polynesia",
+    "alpha2Code": "PF",
+    "capital": "Papeetē",
+    "population": 271800,
+    "timezones": [
+      "UTC-10:00",
+      "UTC-09:30",
+      "UTC-09:00"
+    ]
+  },
+  {
+    "name": "French Southern Territories",
+    "alpha2Code": "TF",
+    "capital": "Port-aux-Français",
+    "population": 140,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Gabon",
+    "alpha2Code": "GA",
+    "capital": "Libreville",
+    "population": 1802278,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Gambia",
+    "alpha2Code": "GM",
+    "capital": "Banjul",
+    "population": 1882450,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Georgia",
+    "alpha2Code": "GE",
+    "capital": "Tbilisi",
+    "population": 3720400,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Germany",
+    "alpha2Code": "DE",
+    "capital": "Berlin",
+    "population": 81770900,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "alpha2Code": "GH",
+    "capital": "Accra",
+    "population": 27670174,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Gibraltar",
+    "alpha2Code": "GI",
+    "capital": "Gibraltar",
+    "population": 33140,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Greece",
+    "alpha2Code": "GR",
+    "capital": "Athens",
+    "population": 10858018,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Greenland",
+    "alpha2Code": "GL",
+    "capital": "Nuuk",
+    "population": 55847,
+    "timezones": [
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-01:00",
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Grenada",
+    "alpha2Code": "GD",
+    "capital": "St. George's",
+    "population": 103328,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Guadeloupe",
+    "alpha2Code": "GP",
+    "capital": "Basse-Terre",
+    "population": 400132,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Guam",
+    "alpha2Code": "GU",
+    "capital": "Hagåtña",
+    "population": 184200,
+    "timezones": [
+      "UTC+10:00"
+    ]
+  },
+  {
+    "name": "Guatemala",
+    "alpha2Code": "GT",
+    "capital": "Guatemala City",
+    "population": 16176133,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Guernsey",
+    "alpha2Code": "GG",
+    "capital": "St. Peter Port",
+    "population": 62999,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Guinea",
+    "alpha2Code": "GN",
+    "capital": "Conakry",
+    "population": 12947000,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Guinea-Bissau",
+    "alpha2Code": "GW",
+    "capital": "Bissau",
+    "population": 1547777,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Guyana",
+    "alpha2Code": "GY",
+    "capital": "Georgetown",
+    "population": 746900,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Haiti",
+    "alpha2Code": "HT",
+    "capital": "Port-au-Prince",
+    "population": 11078033,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "alpha2Code": "HM",
+    "capital": "",
+    "population": 0,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Holy See",
+    "alpha2Code": "VA",
+    "capital": "Rome",
+    "population": 451,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Honduras",
+    "alpha2Code": "HN",
+    "capital": "Tegucigalpa",
+    "population": 8576532,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Hong Kong",
+    "alpha2Code": "HK",
+    "capital": "City of Victoria",
+    "population": 7324300,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Hungary",
+    "alpha2Code": "HU",
+    "capital": "Budapest",
+    "population": 9823000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "alpha2Code": "IS",
+    "capital": "Reykjavík",
+    "population": 334300,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "India",
+    "alpha2Code": "IN",
+    "capital": "New Delhi",
+    "population": 1295210000,
+    "timezones": [
+      "UTC+05:30"
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "alpha2Code": "ID",
+    "capital": "Jakarta",
+    "population": 258705000,
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "alpha2Code": "CI",
+    "capital": "Yamoussoukro",
+    "population": 22671331,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Iran (Islamic Republic of)",
+    "alpha2Code": "IR",
+    "capital": "Tehran",
+    "population": 79369900,
+    "timezones": [
+      "UTC+03:30"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "alpha2Code": "IQ",
+    "capital": "Baghdad",
+    "population": 37883543,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Ireland",
+    "alpha2Code": "IE",
+    "capital": "Dublin",
+    "population": 6378000,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Isle of Man",
+    "alpha2Code": "IM",
+    "capital": "Douglas",
+    "population": 84497,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Israel",
+    "alpha2Code": "IL",
+    "capital": "Jerusalem",
+    "population": 8527400,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Italy",
+    "alpha2Code": "IT",
+    "capital": "Rome",
+    "population": 60665551,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Jamaica",
+    "alpha2Code": "JM",
+    "capital": "Kingston",
+    "population": 2723246,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Japan",
+    "alpha2Code": "JP",
+    "capital": "Tokyo",
+    "population": 126960000,
+    "timezones": [
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "alpha2Code": "JE",
+    "capital": "Saint Helier",
+    "population": 100800,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Jordan",
+    "alpha2Code": "JO",
+    "capital": "Amman",
+    "population": 9531712,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "alpha2Code": "KZ",
+    "capital": "Astana",
+    "population": 17753200,
+    "timezones": [
+      "UTC+05:00",
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "Kenya",
+    "alpha2Code": "KE",
+    "capital": "Nairobi",
+    "population": 47251000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "alpha2Code": "KI",
+    "capital": "South Tarawa",
+    "population": 113400,
+    "timezones": [
+      "UTC+12:00",
+      "UTC+13:00",
+      "UTC+14:00"
+    ]
+  },
+  {
+    "name": "Kuwait",
+    "alpha2Code": "KW",
+    "capital": "Kuwait City",
+    "population": 4183658,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Kyrgyzstan",
+    "alpha2Code": "KG",
+    "capital": "Bishkek",
+    "population": 6047800,
+    "timezones": [
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "Lao People's Democratic Republic",
+    "alpha2Code": "LA",
+    "capital": "Vientiane",
+    "population": 6492400,
+    "timezones": [
+      "UTC+07:00"
+    ]
+  },
+  {
+    "name": "Latvia",
+    "alpha2Code": "LV",
+    "capital": "Riga",
+    "population": 1961600,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "alpha2Code": "LB",
+    "capital": "Beirut",
+    "population": 5988000,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "alpha2Code": "LS",
+    "capital": "Maseru",
+    "population": 1894194,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Liberia",
+    "alpha2Code": "LR",
+    "capital": "Monrovia",
+    "population": 4615000,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Libya",
+    "alpha2Code": "LY",
+    "capital": "Tripoli",
+    "population": 6385000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Liechtenstein",
+    "alpha2Code": "LI",
+    "capital": "Vaduz",
+    "population": 37623,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "alpha2Code": "LT",
+    "capital": "Vilnius",
+    "population": 2872294,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "alpha2Code": "LU",
+    "capital": "Luxembourg",
+    "population": 576200,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Macao",
+    "alpha2Code": "MO",
+    "capital": "",
+    "population": 649100,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Macedonia (the former Yugoslav Republic of)",
+    "alpha2Code": "MK",
+    "capital": "Skopje",
+    "population": 2058539,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "alpha2Code": "MG",
+    "capital": "Antananarivo",
+    "population": 22434363,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Malawi",
+    "alpha2Code": "MW",
+    "capital": "Lilongwe",
+    "population": 16832910,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "alpha2Code": "MY",
+    "capital": "Kuala Lumpur",
+    "population": 31405416,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Maldives",
+    "alpha2Code": "MV",
+    "capital": "Malé",
+    "population": 344023,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Mali",
+    "alpha2Code": "ML",
+    "capital": "Bamako",
+    "population": 18135000,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Malta",
+    "alpha2Code": "MT",
+    "capital": "Valletta",
+    "population": 425384,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Marshall Islands",
+    "alpha2Code": "MH",
+    "capital": "Majuro",
+    "population": 54880,
+    "timezones": [
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Martinique",
+    "alpha2Code": "MQ",
+    "capital": "Fort-de-France",
+    "population": 378243,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Mauritania",
+    "alpha2Code": "MR",
+    "capital": "Nouakchott",
+    "population": 3718678,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Mauritius",
+    "alpha2Code": "MU",
+    "capital": "Port Louis",
+    "population": 1262879,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Mayotte",
+    "alpha2Code": "YT",
+    "capital": "Mamoudzou",
+    "population": 226915,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Mexico",
+    "alpha2Code": "MX",
+    "capital": "Mexico City",
+    "population": 122273473,
+    "timezones": [
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Micronesia (Federated States of)",
+    "alpha2Code": "FM",
+    "capital": "Palikir",
+    "population": 102800,
+    "timezones": [
+      "UTC+10:00",
+      "UTC+11"
+    ]
+  },
+  {
+    "name": "Moldova (Republic of)",
+    "alpha2Code": "MD",
+    "capital": "Chișinău",
+    "population": 3553100,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Monaco",
+    "alpha2Code": "MC",
+    "capital": "Monaco",
+    "population": 38400,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Mongolia",
+    "alpha2Code": "MN",
+    "capital": "Ulan Bator",
+    "population": 3093100,
+    "timezones": [
+      "UTC+07:00",
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Montenegro",
+    "alpha2Code": "ME",
+    "capital": "Podgorica",
+    "population": 621810,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "alpha2Code": "MS",
+    "capital": "Plymouth",
+    "population": 4922,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Morocco",
+    "alpha2Code": "MA",
+    "capital": "Rabat",
+    "population": 33337529,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Mozambique",
+    "alpha2Code": "MZ",
+    "capital": "Maputo",
+    "population": 26423700,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Myanmar",
+    "alpha2Code": "MM",
+    "capital": "Naypyidaw",
+    "population": 51419420,
+    "timezones": [
+      "UTC+06:30"
+    ]
+  },
+  {
+    "name": "Namibia",
+    "alpha2Code": "NA",
+    "capital": "Windhoek",
+    "population": 2324388,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Nauru",
+    "alpha2Code": "NR",
+    "capital": "Yaren",
+    "population": 10084,
+    "timezones": [
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Nepal",
+    "alpha2Code": "NP",
+    "capital": "Kathmandu",
+    "population": 28431500,
+    "timezones": [
+      "UTC+05:45"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "alpha2Code": "NL",
+    "capital": "Amsterdam",
+    "population": 17019800,
+    "timezones": [
+      "UTC-04:00",
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "New Caledonia",
+    "alpha2Code": "NC",
+    "capital": "Nouméa",
+    "population": 268767,
+    "timezones": [
+      "UTC+11:00"
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "alpha2Code": "NZ",
+    "capital": "Wellington",
+    "population": 4697854,
+    "timezones": [
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC+12:00",
+      "UTC+12:45",
+      "UTC+13:00"
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "alpha2Code": "NI",
+    "capital": "Managua",
+    "population": 6262703,
+    "timezones": [
+      "UTC-06:00"
+    ]
+  },
+  {
+    "name": "Niger",
+    "alpha2Code": "NE",
+    "capital": "Niamey",
+    "population": 20715000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "alpha2Code": "NG",
+    "capital": "Abuja",
+    "population": 186988000,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Niue",
+    "alpha2Code": "NU",
+    "capital": "Alofi",
+    "population": 1470,
+    "timezones": [
+      "UTC-11:00"
+    ]
+  },
+  {
+    "name": "Norfolk Island",
+    "alpha2Code": "NF",
+    "capital": "Kingston",
+    "population": 2302,
+    "timezones": [
+      "UTC+11:30"
+    ]
+  },
+  {
+    "name": "Korea (Democratic People's Republic of)",
+    "alpha2Code": "KP",
+    "capital": "Pyongyang",
+    "population": 25281000,
+    "timezones": [
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "alpha2Code": "MP",
+    "capital": "Saipan",
+    "population": 56940,
+    "timezones": [
+      "UTC+10:00"
+    ]
+  },
+  {
+    "name": "Norway",
+    "alpha2Code": "NO",
+    "capital": "Oslo",
+    "population": 5223256,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Oman",
+    "alpha2Code": "OM",
+    "capital": "Muscat",
+    "population": 4420133,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Pakistan",
+    "alpha2Code": "PK",
+    "capital": "Islamabad",
+    "population": 194125062,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Palau",
+    "alpha2Code": "PW",
+    "capital": "Ngerulmud",
+    "population": 17950,
+    "timezones": [
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "Palestine, State of",
+    "alpha2Code": "PS",
+    "capital": "Ramallah",
+    "population": 4682467,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Panama",
+    "alpha2Code": "PA",
+    "capital": "Panama City",
+    "population": 3814672,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "alpha2Code": "PG",
+    "capital": "Port Moresby",
+    "population": 8083700,
+    "timezones": [
+      "UTC+10:00"
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "alpha2Code": "PY",
+    "capital": "Asunción",
+    "population": 6854536,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Peru",
+    "alpha2Code": "PE",
+    "capital": "Lima",
+    "population": 31488700,
+    "timezones": [
+      "UTC-05:00"
+    ]
+  },
+  {
+    "name": "Philippines",
+    "alpha2Code": "PH",
+    "capital": "Manila",
+    "population": 103279800,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Pitcairn",
+    "alpha2Code": "PN",
+    "capital": "Adamstown",
+    "population": 56,
+    "timezones": [
+      "UTC-08:00"
+    ]
+  },
+  {
+    "name": "Poland",
+    "alpha2Code": "PL",
+    "capital": "Warsaw",
+    "population": 38437239,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "alpha2Code": "PT",
+    "capital": "Lisbon",
+    "population": 10374822,
+    "timezones": [
+      "UTC-01:00",
+      "UTC"
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "alpha2Code": "PR",
+    "capital": "San Juan",
+    "population": 3474182,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Qatar",
+    "alpha2Code": "QA",
+    "capital": "Doha",
+    "population": 2587564,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Republic of Kosovo",
+    "alpha2Code": "XK",
+    "capital": "Pristina",
+    "population": 1733842,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Réunion",
+    "alpha2Code": "RE",
+    "capital": "Saint-Denis",
+    "population": 840974,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Romania",
+    "alpha2Code": "RO",
+    "capital": "Bucharest",
+    "population": 19861408,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Russian Federation",
+    "alpha2Code": "RU",
+    "capital": "Moscow",
+    "population": 146599183,
+    "timezones": [
+      "UTC+03:00",
+      "UTC+04:00",
+      "UTC+06:00",
+      "UTC+07:00",
+      "UTC+08:00",
+      "UTC+09:00",
+      "UTC+10:00",
+      "UTC+11:00",
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "alpha2Code": "RW",
+    "capital": "Kigali",
+    "population": 11553188,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Saint Barthélemy",
+    "alpha2Code": "BL",
+    "capital": "Gustavia",
+    "population": 9417,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "alpha2Code": "SH",
+    "capital": "Jamestown",
+    "population": 4255,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "alpha2Code": "KN",
+    "capital": "Basseterre",
+    "population": 46204,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "alpha2Code": "LC",
+    "capital": "Castries",
+    "population": 186000,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Saint Martin (French part)",
+    "alpha2Code": "MF",
+    "capital": "Marigot",
+    "population": 36979,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "alpha2Code": "PM",
+    "capital": "Saint-Pierre",
+    "population": 6069,
+    "timezones": [
+      "UTC-03:00"
+    ]
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "alpha2Code": "VC",
+    "capital": "Kingstown",
+    "population": 109991,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Samoa",
+    "alpha2Code": "WS",
+    "capital": "Apia",
+    "population": 194899,
+    "timezones": [
+      "UTC+13:00"
+    ]
+  },
+  {
+    "name": "San Marino",
+    "alpha2Code": "SM",
+    "capital": "City of San Marino",
+    "population": 33005,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "alpha2Code": "ST",
+    "capital": "São Tomé",
+    "population": 187356,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Saudi Arabia",
+    "alpha2Code": "SA",
+    "capital": "Riyadh",
+    "population": 32248200,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "alpha2Code": "SN",
+    "capital": "Dakar",
+    "population": 14799859,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "alpha2Code": "RS",
+    "capital": "Belgrade",
+    "population": 7076372,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Seychelles",
+    "alpha2Code": "SC",
+    "capital": "Victoria",
+    "population": 91400,
+    "timezones": [
+      "UTC+04:00"
+    ]
+  },
+  {
+    "name": "Sierra Leone",
+    "alpha2Code": "SL",
+    "capital": "Freetown",
+    "population": 7075641,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Singapore",
+    "alpha2Code": "SG",
+    "capital": "Singapore",
+    "population": 5535000,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "alpha2Code": "SX",
+    "capital": "Philipsburg",
+    "population": 38247,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "alpha2Code": "SK",
+    "capital": "Bratislava",
+    "population": 5426252,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "alpha2Code": "SI",
+    "capital": "Ljubljana",
+    "population": 2064188,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "alpha2Code": "SB",
+    "capital": "Honiara",
+    "population": 642000,
+    "timezones": [
+      "UTC+11:00"
+    ]
+  },
+  {
+    "name": "Somalia",
+    "alpha2Code": "SO",
+    "capital": "Mogadishu",
+    "population": 11079000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "alpha2Code": "ZA",
+    "capital": "Pretoria",
+    "population": 55653654,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "South Georgia and the South Sandwich Islands",
+    "alpha2Code": "GS",
+    "capital": "King Edward Point",
+    "population": 30,
+    "timezones": [
+      "UTC-02:00"
+    ]
+  },
+  {
+    "name": "Korea (Republic of)",
+    "alpha2Code": "KR",
+    "capital": "Seoul",
+    "population": 50801405,
+    "timezones": [
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "South Sudan",
+    "alpha2Code": "SS",
+    "capital": "Juba",
+    "population": 12131000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Spain",
+    "alpha2Code": "ES",
+    "capital": "Madrid",
+    "population": 46438422,
+    "timezones": [
+      "UTC",
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Sri Lanka",
+    "alpha2Code": "LK",
+    "capital": "Colombo",
+    "population": 20966000,
+    "timezones": [
+      "UTC+05:30"
+    ]
+  },
+  {
+    "name": "Sudan",
+    "alpha2Code": "SD",
+    "capital": "Khartoum",
+    "population": 39598700,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Suriname",
+    "alpha2Code": "SR",
+    "capital": "Paramaribo",
+    "population": 541638,
+    "timezones": [
+      "UTC-03:00"
+    ]
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "alpha2Code": "SJ",
+    "capital": "Longyearbyen",
+    "population": 2562,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Swaziland",
+    "alpha2Code": "SZ",
+    "capital": "Lobamba",
+    "population": 1132657,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Sweden",
+    "alpha2Code": "SE",
+    "capital": "Stockholm",
+    "population": 9894888,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "alpha2Code": "CH",
+    "capital": "Bern",
+    "population": 8341600,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "alpha2Code": "SY",
+    "capital": "Damascus",
+    "population": 18564000,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Taiwan",
+    "alpha2Code": "TW",
+    "capital": "Taipei",
+    "population": 23503349,
+    "timezones": [
+      "UTC+08:00"
+    ]
+  },
+  {
+    "name": "Tajikistan",
+    "alpha2Code": "TJ",
+    "capital": "Dushanbe",
+    "population": 8593600,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Tanzania, United Republic of",
+    "alpha2Code": "TZ",
+    "capital": "Dodoma",
+    "population": 55155000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Thailand",
+    "alpha2Code": "TH",
+    "capital": "Bangkok",
+    "population": 65327652,
+    "timezones": [
+      "UTC+07:00"
+    ]
+  },
+  {
+    "name": "Timor-Leste",
+    "alpha2Code": "TL",
+    "capital": "Dili",
+    "population": 1167242,
+    "timezones": [
+      "UTC+09:00"
+    ]
+  },
+  {
+    "name": "Togo",
+    "alpha2Code": "TG",
+    "capital": "Lomé",
+    "population": 7143000,
+    "timezones": [
+      "UTC"
+    ]
+  },
+  {
+    "name": "Tokelau",
+    "alpha2Code": "TK",
+    "capital": "Fakaofo",
+    "population": 1411,
+    "timezones": [
+      "UTC+13:00"
+    ]
+  },
+  {
+    "name": "Tonga",
+    "alpha2Code": "TO",
+    "capital": "Nuku'alofa",
+    "population": 103252,
+    "timezones": [
+      "UTC+13:00"
+    ]
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "alpha2Code": "TT",
+    "capital": "Port of Spain",
+    "population": 1349667,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Tunisia",
+    "alpha2Code": "TN",
+    "capital": "Tunis",
+    "population": 11154400,
+    "timezones": [
+      "UTC+01:00"
+    ]
+  },
+  {
+    "name": "Turkey",
+    "alpha2Code": "TR",
+    "capital": "Ankara",
+    "population": 78741053,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Turkmenistan",
+    "alpha2Code": "TM",
+    "capital": "Ashgabat",
+    "population": 4751120,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "alpha2Code": "TC",
+    "capital": "Cockburn Town",
+    "population": 31458,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Tuvalu",
+    "alpha2Code": "TV",
+    "capital": "Funafuti",
+    "population": 10640,
+    "timezones": [
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Uganda",
+    "alpha2Code": "UG",
+    "capital": "Kampala",
+    "population": 33860700,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "alpha2Code": "UA",
+    "capital": "Kiev",
+    "population": 42692393,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "alpha2Code": "AE",
+    "capital": "Abu Dhabi",
+    "population": 9856000,
+    "timezones": [
+      "UTC+04"
+    ]
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "alpha2Code": "GB",
+    "capital": "London",
+    "population": 65110000,
+    "timezones": [
+      "UTC-08:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC-03:00",
+      "UTC-02:00",
+      "UTC",
+      "UTC+01:00",
+      "UTC+02:00",
+      "UTC+06:00"
+    ]
+  },
+  {
+    "name": "United States of America",
+    "alpha2Code": "US",
+    "capital": "Washington, D.C.",
+    "population": 323947000,
+    "timezones": [
+      "UTC-12:00",
+      "UTC-11:00",
+      "UTC-10:00",
+      "UTC-09:00",
+      "UTC-08:00",
+      "UTC-07:00",
+      "UTC-06:00",
+      "UTC-05:00",
+      "UTC-04:00",
+      "UTC+10:00",
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "alpha2Code": "UY",
+    "capital": "Montevideo",
+    "population": 3480222,
+    "timezones": [
+      "UTC-03:00"
+    ]
+  },
+  {
+    "name": "Uzbekistan",
+    "alpha2Code": "UZ",
+    "capital": "Tashkent",
+    "population": 31576400,
+    "timezones": [
+      "UTC+05:00"
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "alpha2Code": "VU",
+    "capital": "Port Vila",
+    "population": 277500,
+    "timezones": [
+      "UTC+11:00"
+    ]
+  },
+  {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "alpha2Code": "VE",
+    "capital": "Caracas",
+    "population": 31028700,
+    "timezones": [
+      "UTC-04:00"
+    ]
+  },
+  {
+    "name": "Viet Nam",
+    "alpha2Code": "VN",
+    "capital": "Hanoi",
+    "population": 92700000,
+    "timezones": [
+      "UTC+07:00"
+    ]
+  },
+  {
+    "name": "Wallis and Futuna",
+    "alpha2Code": "WF",
+    "capital": "Mata-Utu",
+    "population": 11750,
+    "timezones": [
+      "UTC+12:00"
+    ]
+  },
+  {
+    "name": "Western Sahara",
+    "alpha2Code": "EH",
+    "capital": "El Aaiún",
+    "population": 510713,
+    "timezones": [
+      "UTC+00:00"
+    ]
+  },
+  {
+    "name": "Yemen",
+    "alpha2Code": "YE",
+    "capital": "Sana'a",
+    "population": 27478000,
+    "timezones": [
+      "UTC+03:00"
+    ]
+  },
+  {
+    "name": "Zambia",
+    "alpha2Code": "ZM",
+    "capital": "Lusaka",
+    "population": 15933883,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  },
+  {
+    "name": "Zimbabwe",
+    "alpha2Code": "ZW",
+    "capital": "Harare",
+    "population": 14240168,
+    "timezones": [
+      "UTC+02:00"
+    ]
+  }
+]

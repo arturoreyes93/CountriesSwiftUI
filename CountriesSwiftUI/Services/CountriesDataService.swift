@@ -15,7 +15,9 @@ public protocol CountriesDataServiceProtocol {
 public struct CountriesDataService: CountriesDataServiceProtocol {
     public func fetchCountries() -> AnyPublisher<[Country], Error> {
         let router = NetworkRouter<CountriesEndpoint>()
-        return router.request(CountriesEndpoint())
+        var endpoint = CountriesEndpoint()
+        endpoint.activeFilters = CountriesEndpoint.Filter.allCases
+        return router.request(endpoint)
     }
 }
 
@@ -23,9 +25,9 @@ public struct CountriesDataService: CountriesDataServiceProtocol {
 
 //https://stackoverflow.com/questions/38619660/is-it-possible-to-pass-generic-protocols-into-a-constructor-for-proper-dependenc/38783822#38783822
 public struct CountriesDataService2<Router: NetworkRouterProtocol>: CountriesDataServiceProtocol where Router.Endpoint == CountriesEndpoint {
-    
+
     let router: Router
-    
+
     public func fetchCountries() -> AnyPublisher<[Country], Error> {
         return router.request(CountriesEndpoint())
     }

@@ -76,6 +76,7 @@
 		DD97C7FC26BF33F7002FF7FB /* CountriesDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataService.swift; sourceTree = "<group>"; };
 		DD97C7FE26BF522F002FF7FB /* URLEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEndPoint.swift; sourceTree = "<group>"; };
 		DD97C80526BF5424002FF7FB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		DDA5132026C488BC00DF93CA /* FilteredCountries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FilteredCountries.json; sourceTree = "<group>"; };
 		DDEF9C6926C0B42D0004F643 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		DDEF9C6C26C0B7790004F643 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +157,7 @@
 		DD1EC98726BF02C9001DBBD3 /* CountriesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DDA5132026C488BC00DF93CA /* FilteredCountries.json */,
 				DD1EC98826BF02C9001DBBD3 /* CountriesSwiftUIApp.swift */,
 				DD97C80226BF53C9002FF7FB /* Supporting Files */,
 				DD97C80126BF53BD002FF7FB /* Scenes */,
