@@ -11,7 +11,7 @@ import SwiftUI
 struct MedlyInterviewProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountriesListView()
         }
     }
 }

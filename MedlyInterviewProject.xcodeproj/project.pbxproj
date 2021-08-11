@@ -7,12 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD08DF6326C04F1000CFF3F5 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08DF6226C04F1000CFF3F5 /* NetworkRouter.swift */; };
+		DD08DF6526C07F5500CFF3F5 /* CountryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08DF6426C07F5500CFF3F5 /* CountryRowView.swift */; };
+		DD1D1FE026C30F0F0036C67F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FDF26C30F0F0036C67F /* ImageCache.swift */; };
+		DD1D1FE226C3147E0036C67F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FE126C3147E0036C67F /* ImageLoader.swift */; };
+		DD1D1FE726C3686C0036C67F /* CountriesDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FE626C3686C0036C67F /* CountriesDataServiceTests.swift */; };
+		DD1D1FEA26C36F990036C67F /* CountriesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FE926C36F990036C67F /* CountriesEndpoint.swift */; };
+		DD1D1FEC26C374080036C67F /* FlagEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FEB26C374080036C67F /* FlagEndPoint.swift */; };
+		DD1D1FEE26C386E50036C67F /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1D1FED26C386D40036C67F /* Countries.json */; };
+		DD1D1FF026C387E00036C67F /* TestDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FEF26C387E00036C67F /* TestDataManager.swift */; };
+		DD1D1FF326C38F560036C67F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FF226C38F560036C67F /* NetworkError.swift */; };
+		DD1D1FF526C39C7D0036C67F /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D1FF426C39C7D0036C67F /* XCTestCase+Extension.swift */; };
 		DD1EC98926BF02C9001DBBD3 /* MedlyInterviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC98826BF02C9001DBBD3 /* MedlyInterviewProjectApp.swift */; };
-		DD1EC98B26BF02C9001DBBD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC98A26BF02C9001DBBD3 /* ContentView.swift */; };
+		DD1EC98B26BF02C9001DBBD3 /* CountriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC98A26BF02C9001DBBD3 /* CountriesListView.swift */; };
 		DD1EC98D26BF02CA001DBBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1EC98C26BF02CA001DBBD3 /* Assets.xcassets */; };
 		DD1EC99026BF02CA001DBBD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1EC98F26BF02CA001DBBD3 /* Preview Assets.xcassets */; };
-		DD1EC99B26BF02CB001DBBD3 /* MedlyInterviewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC99A26BF02CB001DBBD3 /* MedlyInterviewProjectTests.swift */; };
-		DD1EC9A626BF02CB001DBBD3 /* MedlyInterviewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1EC9A526BF02CB001DBBD3 /* MedlyInterviewProjectUITests.swift */; };
+		DD2EF96726C3F6FE006F1203 /* CountriesNetworkRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF96626C3F6FE006F1203 /* CountriesNetworkRouterMock.swift */; };
+		DD2EF96C26C3FBF7006F1203 /* CountriesViewModelTestts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF96B26C3FBF7006F1203 /* CountriesViewModelTestts.swift */; };
+		DD2EF96E26C3FE75006F1203 /* CountriesDataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF96D26C3FE75006F1203 /* CountriesDataServiceMock.swift */; };
+		DD2EF97126C4038C006F1203 /* NetworkError+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF97026C4038C006F1203 /* NetworkError+Extension.swift */; };
+		DD2EF97326C405AF006F1203 /* CountriesViewModel-State+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF97226C405AF006F1203 /* CountriesViewModel-State+Extension.swift */; };
+		DD2EF97526C4063D006F1203 /* Country+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EF97426C4063D006F1203 /* Country+Extension.swift */; };
+		DD97C7FB26BF1FB4002FF7FB /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97C7FA26BF1FB4002FF7FB /* CountriesViewModel.swift */; };
+		DD97C7FD26BF33F7002FF7FB /* CountriesDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97C7FC26BF33F7002FF7FB /* CountriesDataService.swift */; };
+		DD97C7FF26BF522F002FF7FB /* URLEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97C7FE26BF522F002FF7FB /* URLEndPoint.swift */; };
+		DD97C80626BF5424002FF7FB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97C80526BF5424002FF7FB /* HTTPMethod.swift */; };
+		DDEF9C6A26C0B42D0004F643 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF9C6926C0B42D0004F643 /* Spinner.swift */; };
+		DDEF9C6D26C0B7790004F643 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF9C6C26C0B7790004F643 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,28 +44,40 @@
 			remoteGlobalIDString = DD1EC98426BF02C9001DBBD3;
 			remoteInfo = MedlyInterviewProject;
 		};
-		DD1EC9A226BF02CB001DBBD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD1EC97D26BF02C9001DBBD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD1EC98426BF02C9001DBBD3;
-			remoteInfo = MedlyInterviewProject;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD08DF6226C04F1000CFF3F5 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		DD08DF6426C07F5500CFF3F5 /* CountryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRowView.swift; sourceTree = "<group>"; };
+		DD1D1FDF26C30F0F0036C67F /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		DD1D1FE126C3147E0036C67F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DD1D1FE626C3686C0036C67F /* CountriesDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataServiceTests.swift; sourceTree = "<group>"; };
+		DD1D1FE926C36F990036C67F /* CountriesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesEndpoint.swift; sourceTree = "<group>"; };
+		DD1D1FEB26C374080036C67F /* FlagEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagEndPoint.swift; sourceTree = "<group>"; };
+		DD1D1FED26C386D40036C67F /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		DD1D1FEF26C387E00036C67F /* TestDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataManager.swift; sourceTree = "<group>"; };
+		DD1D1FF226C38F560036C67F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DD1D1FF426C39C7D0036C67F /* XCTestCase+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extension.swift"; sourceTree = "<group>"; };
 		DD1EC98526BF02C9001DBBD3 /* MedlyInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedlyInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1EC98826BF02C9001DBBD3 /* MedlyInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedlyInterviewProjectApp.swift; sourceTree = "<group>"; };
-		DD1EC98A26BF02C9001DBBD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD1EC98A26BF02C9001DBBD3 /* CountriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListView.swift; sourceTree = "<group>"; };
 		DD1EC98C26BF02CA001DBBD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1EC98F26BF02CA001DBBD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD1EC99126BF02CA001DBBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1EC99626BF02CB001DBBD3 /* MedlyInterviewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedlyInterviewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD1EC99A26BF02CB001DBBD3 /* MedlyInterviewProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedlyInterviewProjectTests.swift; sourceTree = "<group>"; };
 		DD1EC99C26BF02CB001DBBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD1EC9A126BF02CB001DBBD3 /* MedlyInterviewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedlyInterviewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD1EC9A526BF02CB001DBBD3 /* MedlyInterviewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedlyInterviewProjectUITests.swift; sourceTree = "<group>"; };
-		DD1EC9A726BF02CB001DBBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2EF96626C3F6FE006F1203 /* CountriesNetworkRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesNetworkRouterMock.swift; sourceTree = "<group>"; };
+		DD2EF96B26C3FBF7006F1203 /* CountriesViewModelTestts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModelTestts.swift; sourceTree = "<group>"; };
+		DD2EF96D26C3FE75006F1203 /* CountriesDataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataServiceMock.swift; sourceTree = "<group>"; };
+		DD2EF97026C4038C006F1203 /* NetworkError+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkError+Extension.swift"; sourceTree = "<group>"; };
+		DD2EF97226C405AF006F1203 /* CountriesViewModel-State+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountriesViewModel-State+Extension.swift"; sourceTree = "<group>"; };
+		DD2EF97426C4063D006F1203 /* Country+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+Extension.swift"; sourceTree = "<group>"; };
+		DD97C7FA26BF1FB4002FF7FB /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		DD97C7FC26BF33F7002FF7FB /* CountriesDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataService.swift; sourceTree = "<group>"; };
+		DD97C7FE26BF522F002FF7FB /* URLEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEndPoint.swift; sourceTree = "<group>"; };
+		DD97C80526BF5424002FF7FB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		DDEF9C6926C0B42D0004F643 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		DDEF9C6C26C0B7790004F643 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,22 +95,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD1EC99E26BF02CB001DBBD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1D1FDE26C30EEB0036C67F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1FDF26C30F0F0036C67F /* ImageCache.swift */,
+				DD1D1FE126C3147E0036C67F /* ImageLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD1D1FE526C314AF0036C67F /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF9C6926C0B42D0004F643 /* Spinner.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		DD1D1FE826C36F880036C67F /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				DD97C7FE26BF522F002FF7FB /* URLEndPoint.swift */,
+				DD1D1FEB26C374080036C67F /* FlagEndPoint.swift */,
+				DD1D1FE926C36F990036C67F /* CountriesEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		DD1D1FF126C38CA70036C67F /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				DD97C7FA26BF1FB4002FF7FB /* CountriesViewModel.swift */,
+				DD08DF6426C07F5500CFF3F5 /* CountryRowView.swift */,
+				DD1EC98A26BF02C9001DBBD3 /* CountriesListView.swift */,
+			);
+			path = Countries;
+			sourceTree = "<group>";
+		};
 		DD1EC97C26BF02C9001DBBD3 = {
 			isa = PBXGroup;
 			children = (
 				DD1EC98726BF02C9001DBBD3 /* MedlyInterviewProject */,
 				DD1EC99926BF02CB001DBBD3 /* MedlyInterviewProjectTests */,
-				DD1EC9A426BF02CB001DBBD3 /* MedlyInterviewProjectUITests */,
 				DD1EC98626BF02C9001DBBD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +149,6 @@
 			children = (
 				DD1EC98526BF02C9001DBBD3 /* MedlyInterviewProject.app */,
 				DD1EC99626BF02CB001DBBD3 /* MedlyInterviewProjectTests.xctest */,
-				DD1EC9A126BF02CB001DBBD3 /* MedlyInterviewProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +157,13 @@
 			isa = PBXGroup;
 			children = (
 				DD1EC98826BF02C9001DBBD3 /* MedlyInterviewProjectApp.swift */,
-				DD1EC98A26BF02C9001DBBD3 /* ContentView.swift */,
-				DD1EC98C26BF02CA001DBBD3 /* Assets.xcassets */,
-				DD1EC99126BF02CA001DBBD3 /* Info.plist */,
+				DD97C80226BF53C9002FF7FB /* Supporting Files */,
+				DD97C80126BF53BD002FF7FB /* Scenes */,
+				DDEF9C6B26C0B7700004F643 /* Model */,
+				DD97C80426BF53F2002FF7FB /* Services */,
+				DD1D1FE526C314AF0036C67F /* UIComponents */,
+				DD97C80026BF53AB002FF7FB /* Network */,
+				DD1D1FDE26C30EEB0036C67F /* Utilities */,
 				DD1EC98E26BF02CA001DBBD3 /* Preview Content */,
 			);
 			path = MedlyInterviewProject;
@@ -115,19 +180,95 @@
 		DD1EC99926BF02CB001DBBD3 /* MedlyInterviewProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD1EC99A26BF02CB001DBBD3 /* MedlyInterviewProjectTests.swift */,
-				DD1EC99C26BF02CB001DBBD3 /* Info.plist */,
+				DD2EF96826C3F72C006F1203 /* Tests */,
+				DD2EF96A26C3F75D006F1203 /* Mocks */,
+				DD2EF96F26C4036E006F1203 /* Extensions */,
+				DD2EF96926C3F746006F1203 /* Supporting Files */,
 			);
 			path = MedlyInterviewProjectTests;
 			sourceTree = "<group>";
 		};
-		DD1EC9A426BF02CB001DBBD3 /* MedlyInterviewProjectUITests */ = {
+		DD2EF96826C3F72C006F1203 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DD1EC9A526BF02CB001DBBD3 /* MedlyInterviewProjectUITests.swift */,
-				DD1EC9A726BF02CB001DBBD3 /* Info.plist */,
+				DD1D1FE626C3686C0036C67F /* CountriesDataServiceTests.swift */,
+				DD2EF96B26C3FBF7006F1203 /* CountriesViewModelTestts.swift */,
 			);
-			path = MedlyInterviewProjectUITests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DD2EF96926C3F746006F1203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1FEF26C387E00036C67F /* TestDataManager.swift */,
+				DD1D1FED26C386D40036C67F /* Countries.json */,
+				DD1EC99C26BF02CB001DBBD3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD2EF96A26C3F75D006F1203 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2EF96626C3F6FE006F1203 /* CountriesNetworkRouterMock.swift */,
+				DD2EF96D26C3FE75006F1203 /* CountriesDataServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		DD2EF96F26C4036E006F1203 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1FF426C39C7D0036C67F /* XCTestCase+Extension.swift */,
+				DD2EF97026C4038C006F1203 /* NetworkError+Extension.swift */,
+				DD2EF97226C405AF006F1203 /* CountriesViewModel-State+Extension.swift */,
+				DD2EF97426C4063D006F1203 /* Country+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD97C80026BF53AB002FF7FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1FE826C36F880036C67F /* Endpoints */,
+				DD97C80526BF5424002FF7FB /* HTTPMethod.swift */,
+				DD08DF6226C04F1000CFF3F5 /* NetworkRouter.swift */,
+				DD1D1FF226C38F560036C67F /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD97C80126BF53BD002FF7FB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1FF126C38CA70036C67F /* Countries */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DD97C80226BF53C9002FF7FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1EC98C26BF02CA001DBBD3 /* Assets.xcassets */,
+				DD1EC99126BF02CA001DBBD3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD97C80426BF53F2002FF7FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD97C7FC26BF33F7002FF7FB /* CountriesDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DDEF9C6B26C0B7700004F643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF9C6C26C0B7790004F643 /* Country.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +309,6 @@
 			productReference = DD1EC99626BF02CB001DBBD3 /* MedlyInterviewProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD1EC9A026BF02CB001DBBD3 /* MedlyInterviewProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD1EC9B026BF02CB001DBBD3 /* Build configuration list for PBXNativeTarget "MedlyInterviewProjectUITests" */;
-			buildPhases = (
-				DD1EC99D26BF02CB001DBBD3 /* Sources */,
-				DD1EC99E26BF02CB001DBBD3 /* Frameworks */,
-				DD1EC99F26BF02CB001DBBD3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD1EC9A326BF02CB001DBBD3 /* PBXTargetDependency */,
-			);
-			name = MedlyInterviewProjectUITests;
-			productName = MedlyInterviewProjectUITests;
-			productReference = DD1EC9A126BF02CB001DBBD3 /* MedlyInterviewProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +322,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					DD1EC99526BF02CB001DBBD3 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = DD1EC98426BF02C9001DBBD3;
-					};
-					DD1EC9A026BF02CB001DBBD3 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = DD1EC98426BF02C9001DBBD3;
 					};
@@ -223,7 +342,6 @@
 			targets = (
 				DD1EC98426BF02C9001DBBD3 /* MedlyInterviewProject */,
 				DD1EC99526BF02CB001DBBD3 /* MedlyInterviewProjectTests */,
-				DD1EC9A026BF02CB001DBBD3 /* MedlyInterviewProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD1EC99F26BF02CB001DBBD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DD1D1FEE26C386E50036C67F /* Countries.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +371,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1EC98B26BF02C9001DBBD3 /* ContentView.swift in Sources */,
+				DD97C7FB26BF1FB4002FF7FB /* CountriesViewModel.swift in Sources */,
+				DD1D1FF326C38F560036C67F /* NetworkError.swift in Sources */,
+				DD1EC98B26BF02C9001DBBD3 /* CountriesListView.swift in Sources */,
+				DD1D1FEC26C374080036C67F /* FlagEndPoint.swift in Sources */,
+				DD08DF6526C07F5500CFF3F5 /* CountryRowView.swift in Sources */,
+				DD1D1FEA26C36F990036C67F /* CountriesEndpoint.swift in Sources */,
+				DD97C7FF26BF522F002FF7FB /* URLEndPoint.swift in Sources */,
+				DD97C80626BF5424002FF7FB /* HTTPMethod.swift in Sources */,
+				DD1D1FE026C30F0F0036C67F /* ImageCache.swift in Sources */,
+				DD97C7FD26BF33F7002FF7FB /* CountriesDataService.swift in Sources */,
+				DDEF9C6D26C0B7790004F643 /* Country.swift in Sources */,
 				DD1EC98926BF02C9001DBBD3 /* MedlyInterviewProjectApp.swift in Sources */,
+				DD08DF6326C04F1000CFF3F5 /* NetworkRouter.swift in Sources */,
+				DDEF9C6A26C0B42D0004F643 /* Spinner.swift in Sources */,
+				DD1D1FE226C3147E0036C67F /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +393,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD1EC99B26BF02CB001DBBD3 /* MedlyInterviewProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD1EC99D26BF02CB001DBBD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD1EC9A626BF02CB001DBBD3 /* MedlyInterviewProjectUITests.swift in Sources */,
+				DD1D1FF526C39C7D0036C67F /* XCTestCase+Extension.swift in Sources */,
+				DD2EF97326C405AF006F1203 /* CountriesViewModel-State+Extension.swift in Sources */,
+				DD2EF96726C3F6FE006F1203 /* CountriesNetworkRouterMock.swift in Sources */,
+				DD1D1FF026C387E00036C67F /* TestDataManager.swift in Sources */,
+				DD2EF97126C4038C006F1203 /* NetworkError+Extension.swift in Sources */,
+				DD1D1FE726C3686C0036C67F /* CountriesDataServiceTests.swift in Sources */,
+				DD2EF96C26C3FBF7006F1203 /* CountriesViewModelTestts.swift in Sources */,
+				DD2EF96E26C3FE75006F1203 /* CountriesDataServiceMock.swift in Sources */,
+				DD2EF97526C4063D006F1203 /* Country+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +412,6 @@
 			isa = PBXTargetDependency;
 			target = DD1EC98426BF02C9001DBBD3 /* MedlyInterviewProject */;
 			targetProxy = DD1EC99726BF02CB001DBBD3 /* PBXContainerItemProxy */;
-		};
-		DD1EC9A326BF02CB001DBBD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD1EC98426BF02C9001DBBD3 /* MedlyInterviewProject */;
-			targetProxy = DD1EC9A226BF02CB001DBBD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,8 +539,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MedlyInterviewProject/Preview Content\"";
+				DEVELOPMENT_TEAM = L9XT9DG6XH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MedlyInterviewProject/Info.plist;
+				INFOPLIST_FILE = "MedlyInterviewProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,8 +561,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MedlyInterviewProject/Preview Content\"";
+				DEVELOPMENT_TEAM = L9XT9DG6XH;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MedlyInterviewProject/Info.plist;
+				INFOPLIST_FILE = "MedlyInterviewProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +582,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MedlyInterviewProjectTests/Info.plist;
+				DEVELOPMENT_TEAM = L9XT9DG6XH;
+				INFOPLIST_FILE = "MedlyInterviewProjectTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +604,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MedlyInterviewProjectTests/Info.plist;
+				DEVELOPMENT_TEAM = L9XT9DG6XH;
+				INFOPLIST_FILE = "MedlyInterviewProjectTests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,44 +617,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedlyInterviewProject.app/MedlyInterviewProject";
-			};
-			name = Release;
-		};
-		DD1EC9B126BF02CB001DBBD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MedlyInterviewProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = arturoreyes.MedlyInterviewProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MedlyInterviewProject;
-			};
-			name = Debug;
-		};
-		DD1EC9B226BF02CB001DBBD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MedlyInterviewProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = arturoreyes.MedlyInterviewProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MedlyInterviewProject;
 			};
 			name = Release;
 		};
@@ -560,15 +646,6 @@
 			buildConfigurations = (
 				DD1EC9AE26BF02CB001DBBD3 /* Debug */,
 				DD1EC9AF26BF02CB001DBBD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD1EC9B026BF02CB001DBBD3 /* Build configuration list for PBXNativeTarget "MedlyInterviewProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD1EC9B126BF02CB001DBBD3 /* Debug */,
-				DD1EC9B226BF02CB001DBBD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
