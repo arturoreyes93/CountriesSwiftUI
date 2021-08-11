@@ -9,7 +9,7 @@ import XCTest
 import Combine
 @testable import CountriesSwiftUI
 
-class CountriesViewModelTestts: XCTestCase {
+class CountriesViewModelTests: XCTestCase {
     
     var sut: CountriesViewModel!
     
@@ -28,37 +28,74 @@ class CountriesViewModelTestts: XCTestCase {
     func testViewModelInitialState() {
         XCTAssert(sut.state == .loading)
     }
-
+    
     func testFetchCountriesSuccess() throws {
-//        service.testResult = .success
-//
-//        var loadedCountries: [Country] = []
-//        var loadedState: CountriesViewModel
-//        let expectation = expectation(description: "Loaded countries successfully")
-//        sut.loadCountries()
-//        let _ = sut.$state
-//            .receive(on: RunLoop.main)
-//            .sink { <#Subscribers.Completion<Published<CountriesViewModel.State>.Publisher.Failure>#> in
-//                <#code#>
-//            } receiveValue: { <#Published<CountriesViewModel.State>.Publisher.Output#> in
-//                <#code#>
-//            }
-//
-//
-//        wait(for: [expectation], timeout: 5)
-//        XCTAssert(!loadedCountries.isEmpty)
-//        XCTAssert(sut.state == .loaded(loadedCountries))
+        service.testResult = .success
+        
+        var cancellables = Set<AnyCancellable>()
+        var loadedCountries: [Country] = []
+        let expectation = expectation(description: "testFetchCountriesSuccess passed")
+        
+        let _ = sut.$state
+            .sink { state in
+                if case .loaded(let countries) = state {
+                    XCTAssert(!countries.isEmpty)
+                    loadedCountries.append(contentsOf: countries)
+                    expectation.fulfill()
+                }
+            }.store(in: &cancellables)
+        
+        sut.loadCountries()
+        wait(for: [expectation], timeout: 1)
+        XCTAssert(!loadedCountries.isEmpty)
+        XCTAssert(sut.state == .loaded(loadedCountries))
     }
     
     func testFetchCountriesFail_noData() throws {
-//        let expectedError = NetworkError.noData
-//        service.testResult = .error(expectedError)
-
+        service.testResult = .error(NetworkError.noData)
+        
+        var cancellables = Set<AnyCancellable>()
+        var expectedError: NetworkError?
+        let expectation = expectation(description: "testFetchCountriesFail_noData passed")
+        
+        let _ = sut.$state
+            .sink { state in
+                if case .error(let error) = state {
+                    if let networkError = error as? NetworkError {
+                        expectedError = networkError
+                        expectation.fulfill()
+                    }
+                }
+            }.store(in: &cancellables)
+        
+        sut.loadCountries()
+        wait(for: [expectation], timeout: 1)
+        XCTAssertNotNil(expectedError)
+        XCTAssert(sut.state == .error(expectedError!))
+        
     }
     
     func testFetchCountriesFail_badStatusCode() throws {
-//        let expectedError = NetworkError.badHTTPStatusCode(404)
-//        service.testResult = .error(expectedError)
+        service.testResult = .error(NetworkError.badHTTPStatusCode(404))
+        
+        var cancellables = Set<AnyCancellable>()
+        var expectedError: NetworkError?
+        let expectation = expectation(description: "testFetchCountriesFail_noData passed")
+        
+        let _ = sut.$state
+            .sink { state in
+                if case .error(let error) = state {
+                    if let networkError = error as? NetworkError {
+                        expectedError = networkError
+                        expectation.fulfill()
+                    }
+                }
+            }.store(in: &cancellables)
+        
+        sut.loadCountries()
+        wait(for: [expectation], timeout: 1)
+        XCTAssertNotNil(expectedError)
+        XCTAssert(sut.state == .error(expectedError!))
 
     }
 

@@ -9,7 +9,7 @@ import XCTest
 import Combine
 @testable import CountriesSwiftUI
 
-struct CountriesDataServiceMock: CountriesDataServiceProtocol {
+class CountriesDataServiceMock: CountriesDataServiceProtocol {
     
     enum TestResult {
         case success
@@ -32,18 +32,7 @@ struct CountriesDataServiceMock: CountriesDataServiceProtocol {
                 return Fail(error: NetworkError.noData).eraseToAnyPublisher()
             }
             
-            let result = decodedResult(data: countriesData)
-            
-            let _ = result
-                .receive(on: RunLoop.main)
-                .sink { _ in
-                    //
-                } receiveValue: { countries in
-                    CountriesDataServiceMock.fetchedCountries = countries
-                }
-            
-
-            return result
+            return testData.decode(countriesData)
         case .error(let error):
             return Fail(error: error).eraseToAnyPublisher()
         }
